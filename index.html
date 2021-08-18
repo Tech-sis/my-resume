@@ -20,16 +20,16 @@
                    <a href="" class="nav-link"> Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link"> Profile</a>
+                    <a href="#profile-page" class="nav-link"> Profile</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link"> Resume</a>
+                    <a href="#resume-page" class="nav-link"> Resume</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link"> Skills</a>
+                    <a href="#skills-page" class="nav-link"> Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link"> Contact</a>
+                    <a href="#contact-page" class="nav-link"> Contact</a>
                 </li>
             </ul>
             </div>
@@ -39,26 +39,29 @@
     </header>
 
     <main> 
+       
         <section class="section-0">
-             <div class="jumbotron text-white text-center p-5 m-md-5 ">
-            <h1 class="p-2 p-md-5 mt-md-1 ">I'm Adeola Abilawon!</h1>
+            <div class="overlay-div"></div>
+             <div class="jumbotron text-dark text-capitalize text-center p-5 m-md-5 img-overlay">
+            <h1 id="name" class="p-2 p-md-5 mt-md-1 fs-5">I'm Adeola Abilawon!</h1>
             <h3 class="p-3">Front-End Developer</h3>
-            <p class="mb-md-5 first">Book addict, video game lover, sheCan</p>
-            <a class="mt-5 p-2 bg-danger text-reset text-decoration-none text-uppercase rounded" href="#">Know me better</a>
+            <p class="mb-md-5 first p-1 p-md-4 p-lg-5">Book addict, video game lover, sheCan</p>
+            <a class="mt-5 p-2 bg-danger text-reset text-decoration-none text-uppercase rounded" href="#profile-page">Know me better</a>
+            
         </div>
         </section>
-        
+         <a id="profile-page">
         <section class="section-1">
             <div>
                 <img src="" alt="">
             </div>
             <div class="m-3 m-md-4 m-lg-5">
                 <h1 class="fs-1 text-right text-uppercase mb-4 mt-md-4 ">Hello, my name is Adeola!</h1>
-                <h6 class="p-1 mb-md-1 fs-2 fw-normal">Adeola Abilawon, 26 years young, born & grew up in Lagos, Nigeria. Highly motivated front-end developer with a penchant for advancement.</h6>
+                <h6 class=" mb-md-1 fs-5 fw-normal">Adeola Abilawon, 26 years young, born & grew up in Lagos, Nigeria. Highly motivated front-end developer with a penchant for advancement.</h6>
             </div>
-            <hr style="width:20%; color:#dc3545; margin:auto" size="9" class="mx-md-4">
+            <hr  size="9" class="mx-md-4">
             <div class="m-3 text-secondary fw-normal">
-                <p class="mt-md-5 mx-md-4 mx-lg-5">I currently work at Galley-La Company, where I spend most of my time crafting and working on awesome projects.</p>
+                <p class="mt-md-5 mx-md-4 mx-lg-5">I currently work at HNGi8, where I spend most of my time crafting and working on awesome projects.</p>
                 <div></div>
                 <p class="mx-md-4 mx-lg-5 mb-md-5">
                     Justo dolore elitr labore justo nonumy stet kasd, sea et ea dolores duo diam sed ipsum ipsum, amet est dolor clita takimata invidunt takimata dolores. Erat ut duo elitr justo.
@@ -73,113 +76,169 @@
                     <p class="m-md-4 m-lg-5 mb-md-5 text-secondary fw-bold">abilawonadeola@gmail.com</p>
                 </div>
                 <div>
-                    <button class="col-md-4 col-7 m-3 btn btn-white btn-sm btn-outline-danger text-uppercase">Download Resume</button>
+                    <button class="col-md-4 col-7 m-3 btn btn-white btn-sm btn-outline-danger text-uppercase"><a class="text-decoration-none text-white fs-5" href="#" download="Adeola's Resume">Download Resume</a> </button>
                 </div>
             </div>
         </section>
-
+    </a>
+    <a id="resume-page">
         <section class="section-2 mt-md-5">
             <div class="text-center m-3 m-md-4 m-lg-5 p-2">
                 <h1 class="text-uppercase p-1">My Resume</h1>
                 <p class="fst-italic text-secondary mb-0">Mystery songs than ancient one an devil and clasp said.</p>
             </div>
-            <hr style="width:20%; color:#dc3545; margin:auto" size="9">
-            <div class="m-3 mt-5">
-                <p class="mt-5 pt-5 fw-normal text-center bg text-uppercase">My Education</p>
+            <hr class="hr-1" size="9">
+            <div class="m-3 m-md-4 m-lg-5 mt-5">
+                <p class="mt-5 pt-1 fw-normal text-center bg text-uppercase">My Education</p>
                 <p class="fw-normal text-center mb-5 p-1">2015 - 2021
                 </p>
-                 <!-- <p class="badge bg-danger p-3 position-absolute top-400 start- translate-middle" style="width: 120px;"> 2015-2019
-                    <p> -->
-            
+            </div>
 
-            <div class="accordion" id="accordionPanelsStayOpenExample">
-                <div class="accordion-item border text-center position-relative mb-sm-5 mb-md-0">
+            <div class="accordion m-5" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item bg-dark border text-center position-relative mb-sm-5 mb-md-0">
                    
                     <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                        <button class="accordion-button d-sm-none d-md-block text-start mt-sm-4 p-3 pb-2 text-uppercase" 
-                                type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        <button class="accordion-button bg-danger text-white d-sm-none d-md-block text-start p-3 text-uppercase" 
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" 
+                                aria-expanded="true"
                                 aria-controls="panelsStayOpen-collapseOne">
-                            Bachelor Degree - University of Lagos
+                            Bachelor Degree - University of Lagos (2019)
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                         aria-labelledby="panelsStayOpen-headingOne">
-                        <div class="accordion-body fw-light text-secondary text-start p-3 pt-1">
-                            <p>This is the first item's accordion body.</p> It is shown by default, until the collapse
-                            plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                            custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-                            within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-body fw-light text-secondary text-start p-3 pt-4">
+                            <p>
+                                B.Sc. Political Science, Second Class Upper from the prestigious universiy of Lagos.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item bg-dark">
                     <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button bg-danger text-white text-uppercase collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseTwo">
-                            Accordion Item #2
+                            zuri training certification (2021)
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                         aria-labelledby="panelsStayOpen-headingTwo">
-                        <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-                            plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                            custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-                            within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-body fw-light text-secondary text-start p-3 pt-4">
+                            <p>Graduated and completed training in HTML, CSS, JavaScript and React. </p>
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item bg-dark">
                     <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button bg-danger text-white text-uppercase collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseThree">
-                            Accordion Item #3
+                            google africa developer scholarship (2021)
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                         aria-labelledby="panelsStayOpen-headingThree">
-                        <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                            plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                            custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-                            within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-body fw-light text-secondary text-start p-3 pt-4">
+                           <p>
+                            Won the prestigious google and Andela scholarsip for mobile web development.   
+                            Mobile web specialist certification in view.
+
+                           </p>
                         </div>
-            </div>        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="m-3 m-md-4 m-lg-5 mt-5">
+                <p class="mt-5 pt-1 fw-normal text-center bg text-uppercase">Work Experience</p>
+                <p class="fw-normal text-center mb-3 p-1">2015 - 2021</p>
+
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item bg-dark border text-center position-relative mb-sm-5 m-4 mb-md-0">
+            
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button
+                            class="accordion-button bg-danger text-white d-sm-none d-md-block text-start p-3 text-uppercase"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"
+                            aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            HNG Internship 8
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body fw-light text-secondary text-start p-3 pt-4">
+                            <p>Frontend intern of the HNGi8 with a penchant for knowldege, building responsive websites that solve problems <a class="text-decoration-none" href="https://hng.tech/">click for more info.</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-dark">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button bg-danger text-uppercase text-white collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            Research Intern
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body text-capitalize fw-light text-secondary text-start p-3 pt-4">
+                            <p>
+                                research intern at the institute of african and diaspora studies, university of lagos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-dark">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button bg-danger text-white text-uppercase collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            research assistant
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body text-capitalize fw-light text-secondary text-start p-3 pt-4">
+                            <p>
+                                university of edinburgh - 2020
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+    </a>
 
-        <section>
+
+<a id="skills-page" >
+    <section class="section-h2" >
             <div class="m-3 text-center mt-5">
                 <h1 class="p-5 pb-2 text-uppercase">Skills & Expertise</h1>
                 <p class="fw-light text-secondary fst-italic">Before they flatterers they the monastic by finds have did in, parting earthly clay at.</p>
             </div>
-            <hr style="width:20%; color:#dc3545; margin:auto" size="9">
+            <hr class="hr-2" size="9">
             <div class="container">
-                <div class="row row-cols-2">
-                <div class="text-center mt-5 col">
+                <div class="row row-cols-md-2 row-cols-lg-3">
+                <div class="text-center mt-5 col-md">
                     <img style="max-width: 25%; height: auto;"  class="img-fluid mx-auto  d-block" src="./images/html-1.svg" alt="html">
                     <h6 class="mt-3">HTML</h6>
                 </div>
-                <div class="text-center mt-5 col">
+                <div class="text-center mt-5 col-md">
                     <img style="max-width: 25%; height: auto;" class="img-fluid mx-auto  d-block" src="./images/css-3.svg" alt="html">
                     <h6 class="mt-3">CSS</h6>
                 </div>
-                <div class="text-center mt-5 col">
+                <div class="text-center mt-5 col-md">
                     <img style="max-width: 25%; height: auto;" class="img-fluid mx-auto  d-block" src="./images/logo-javascript.svg" alt="html">
                     <h6 class="mt-3">JAVASCRIPT</h6>
                 </div>
-                <div class="text-center mt-5 col">
+                <div class="text-center mt-5 col-md">
                     <img style="max-width: 25%; height: auto;" class="img-fluid mx-auto  d-block" src="./images/react-1.svg" alt="html">
                     <h6 class="mt-3">REACT</h6>
                 </div>
-                <div class="text-center mt-5 col">
+                <div class="text-center mt-5 col-md">
                     <img style="max-width: 25%; height: auto;" class="img-fluid mx-auto  d-block" src="./images/bootstrap-5-1.svg" alt="html">
                     <h6 class="mt-3">BOOTSTRAP</h6>
                 </div>
@@ -192,37 +251,37 @@
             <div class=" mt-5 m-3">
                 <h2 class=" mt-md-5 text-uppercase text-center mb-3 ">Accolades</h2>
                     <p class="fst-italic text-secondary text-center p-3 pt-1">Steigt weich nennt noch mir die, geisterreich der ihr  nicht. Und äolsharfe so erste.</p>
-                <hr style="width:20%; color:#dc3545; margin:auto" size="9">
+                <hr class="hr-3" size="9">
 
                 <div style="border-left: 2px solid #dc3545; position: relative; height: auto; margin-top: 50px;" class="offset-1 textt-right"> 
                 
                     
                     <div class="m-2 p-1 p-lg-5">
-                        <img src="./images/react-1.svg" style="width: 20%;" class="position-absolute top-1 end-2 m-1" alt=""> 
-                        <p class="text-uppercase m-4 mt-1 mb-1 fs-1">Sololearn CSS certification</p>
-                        <p class="m-4 mt-1 fs-2">2017</p>
-                        <p class="fw-light m-4 fs-5 text-secondary">No sea et at amet dolor accusam dolores, dolor dolores.</p>
+                        <img src="" style="width: 20%;" class="position-absolute top-1 end-2 m-1" alt=""> 
+                        <p class="text-uppercase m-4 mt-1 mb-1 fs-1">Zuri Training certification</p>
+                        <p class="m-4 mt-1 fs-2">2021</p>
+                        <p class="fw-light m-4 fs-5 text-secondary">For completing the project phase.</p>
                         <hr style="width:100%; color:white;" size="3" class="m-4">
                     </div>
                     <div class="m-2 p-1 p-lg-5">
-                        <img src="./images/react-1.svg" style="width: 20%;" class="img-2" alt="">
-                        <p class="text-uppercase m-4 mt-1 mb-1 fs-1">Sololearn CSS certification</p>
-                        <p class="m-4 mt-1 fs-2">2017</p>
-                        <p class="fw-light m-4 fs-5 text-secondary">No sea et at amet dolor accusam dolores, dolor dolores.</p>
+                        <img src="" style="width: 20%;" class="img-2" alt="">
+                        <p class="text-uppercase m-4 mt-1 mb-1 fs-1">best graduating student</p>
+                        <p class="m-4 mt-1 fs-2">2019</p>
+                        <p class="fw-light m-4 fs-5 text-secondary">Department of political science</p>
                         <hr style="width:100%; color:white;" size="3" class="m-4">
                     </div>
                     <div class="m-2 p-1 p-lg-5">
-                        <img src="./images/react-1.svg" style="width: 20%;" class="img-3" alt="">
+                        <img src="" style="width: 20%;" class="img-3" alt="">
                         <p class="text-uppercase m-4 mt-1 mb-1 fs-1">Sololearn CSS certification</p>
-                        <p class="m-4 mt-1 fs-2">2017</p>
-                        <p class="fw-light m-4 fs-5 text-secondary">No sea et at amet dolor accusam dolores, dolor dolores.</p>
+                        <p class="m-4 mt-1 fs-2">2020</p>
+                        <p class="fw-light m-4 fs-5 text-secondary">Proficiency with CSS3</p>
                         <hr style="width:100%; color:white;" size="3" class="m-4">
                     </div>
                     <div class="m-2 p-1 p-lg-5">
-                        <img src="./images/react-1.svg" style="width: 20%;" class="img-4" alt="">
-                        <p class="text-uppercase m-4 mt-1 mb-1 fs-1">Sololearn CSS certification</p>
-                        <p class="m-4 mt-1 fs-2">2017</p>
-                        <p class="fw-light m-4 fs-5 text-secondary">No sea et at amet dolor accusam dolores, dolor dolores.</p>
+                        <img src="" style="width: 20%;" class="img-4" alt="">
+                        <p class="text-uppercase m-4 mt-1 mb-1 fs-1">Sololearn HTML certification</p>
+                        <p class="m-4 mt-1 fs-2">2019</p>
+                        <p class="fw-light m-4 fs-5 text-secondary">Proficiency with HTML 5</p>
                         <hr style="width:100%; color:white;" size="3" class="m-4">
                     </div>
             </div>
@@ -230,36 +289,45 @@
             <div class=" mt-5 m-3 m-md-4 m-lg-5">
                 <h2 class="text-uppercase text-center mb-3 mb-md-4 mb-lg-5 mt-5">Milestones Achieved</h2>
                 <p class="fst-italic text-secondary text-center p-3 pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nam recusandae itaque odit.</p>
-                <hr style="width:20%; color:#dc3545; margin:auto" size="9">
+                <hr class="hr-4" size="9">
 
-                <div class="text-uppercase fw-bold row row-cols-2"> 
+                <div class="container d-sm-flex justify-content-sm-center  text-uppercase fw-bold row row-cols-md"> 
                    
-                    <div class="col">
-                        <img src="./images/hnglogo.png" style="max-width: 70%; height: auto; background-color: white;"
-                            class="img-fluid mx-auto  d-block mt-5" alt="">
-                        <p class="text-center mt-4">8 weeeks</p>
-                        <p class="text-center">Moved to stage 2</p>
+                    <div class="col-md">
+                        <a href="">
+                            <img src="./images/hng1.jpeg" style="max-width: 70%; height: auto; background-color: white;"
+                            class="img-fluid mx-auto rounded-circle d-block mt-5" alt="">
+                        </a>
+                        <p class="text-center fs-3 mt-4">8 weeks</p>
+                        <p class="text-center fs-5 fw-light">Moved to stage 2</p>
                     </div>
-                    <div class="col">
-                        <img src="./images/I4G logo.jpg" style="max-width: 45%; height: auto;"
-                            class="img-fluid mx-auto  d-block  mt-5" alt="">
-                        <p class="text-center mt-4">beneficiary</p>
-                        <p class="text-center">won the i4g scholarship</p>
+                    <div class="col-md">
+                        <a href="">
+                            <img src="./images/i4g1.jpeg" style="max-width: 70%; height: auto;"
+                            class="img-fluid mx-auto rounded-circle d-block  mt-5" alt="">
+                        </a>
+                        <p class="text-center fs-3 mt-3">beneficiary</p>
+                        <p class="fw-light text-center">won the i4g scholarship</p>
                     </div>
 
-                    <div class="col">
-                        <img src="./images/Zuri logo.png" style="max-width: 45%; height: auto;"  class="img-fluid mx-auto  d-block rounded-circle mt-5"  alt="">
-                        <p class="text-center mt-4">12 weeks</p>
-                        <p class="text-center">Completed Zuri Training</p>
+                    <div class="col-md">
+                        <a href="">
+                            <img src="./images/Zuri logo.png" style="max-width: 70%; height: auto;"  class="img-fluid mx-auto  d-block rounded-circle mt-5"  alt="">
+                        </a>
+                        
+                        <p class="text-center fs-3 mt-4">12 weeks</p>
+                        <p class="text-center fw-light">Completed Zuri Training</p>
                     </div>
                    
                 </div>
             </div>
         </section>
+    </a>
     </main>
 
-    <footer class="bg-danger mt-5 p-2 p-md-4 p-lg-5">
-        <div class="text-center fw-light">
+    <a id="contact-page">
+    <footer class="bg-danger">
+        <div class="text-center p-3 fw-light">
             <i class="far fa-copyright"></i>
             <p class="d-inline">2021 Adeola Abilawon. All right reserved</p>
         </div>
@@ -273,7 +341,9 @@
             </a>
         </div>
     </footer>
+</a>
     <script src="./bootstrap.js"></script>
+    <script src="./app.js"></script>
 </body>
 
 </html>

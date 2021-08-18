@@ -4,16 +4,69 @@
     box-sizing: border-box;
 }
 body{
-    /* background: url(./images/resized-image-Promo.jpeg) repeat center;
-    background-size: contain; */
+    /* background: url(./images/pexels-oleg-magni-1040499.jpg) no-repeat center left;
+    background-size: cover; */
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black !important;
 }
+
 .section-0{
      background: url(./images/resized-image-Promo.jpeg) no-repeat center;
     background-size: cover;
 }
-.section-1{
+.overlay-div {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #000;
+    opacity: .5;
+}
+.section-h2{
     background-color: black;
+}
+h1.p-2.p-md-5.mt-md-1.fs-5 {
+    font-size: 3rem !important;
+    color: #dc3545;
+}
+h3.p-3 {
+    color: #dc3545;
+    /* background-color: #000; */
+}
+p.mb-md-5.first {
+    color: #dc3545;
+    /* background-color: black; */
+}
+hr{
+    width:10%; 
+    color:#dc3545 !important; 
+    margin:20px !important;
+}
+a.text-decoration-none.text-white.fs-5 {
+    font-size: 13px !important;
+}
+button.col-md-4.col-7.m-3.btn.btn-white.btn-sm.btn-outline-danger.text-uppercase {
+    height: 50px;
+}
+h1.text-uppercase.p-1 {
+    margin-top: 35px;
+    font-size: 35px;
+}
+hr.hr-1 {
+    margin: auto !important;
+}
+hr.hr-2 {
+    margin: auto !important;
+}
+hr.hr-3 {
+    margin: auto !important;
+}
+hr.hr-4 {
+    margin: auto !important;
+}
+p.mt-5.pt-1.fw-normal.text-center.bg.text-uppercase {
+    font-size: 22px;
 }
 
 img.position-absolute.top-1.end-2.m-1 {
@@ -35,13 +88,13 @@ img.img-4 {
     top: 935px;
     left: -33px;
 }
-/* hr {
-    width: 35px !important;
-    margin: 30px !important;
-    color: red !important;
-    border: 3px solid red !important;
-    border-radius: 2px !important;
-} */
+h2.mt-md-5.text-uppercase.text-center.mb-3 {
+    margin-top: 125px !important;
+}
+h2.text-uppercase.text-center.mb-3.mb-md-4.mb-lg-5.mt-5 {
+    margin-top: 100px !important;
+}
+
 
 @media screen {
     
@@ -50,7 +103,7 @@ img.img-4 {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .jumbotron.text-white.text-center.p-5 {
-    background-color: black;
+    /* background-color: black; */
 }
 h1.fs-1.text-right.text-uppercase.mb-4.mt-md-4 {
     margin-top: 85px !important;
@@ -81,6 +134,16 @@ button.col-7.m-3.btn.btn-white.btn-sm.btn-outline-danger.text-uppercase {
 }
 section.section-2.mt-md-5 {
     margin-top: 85px !important;
+    background-color: #000; 
+}
+.overlay-div {
+    height: 63%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #000;
+    opacity: .5;
 }
 img.position-absolute.top-1.end-2.m-1 {
     width: 10% !important;
@@ -127,7 +190,7 @@ h2.mt-md-5.text-uppercase.text-center.mb-3 {
     margin-right: 77px !important;
 }  
 .section-1 {
-    background-color: black;
+    background-color: black !important;
     height: 1000px;
 }
 img.position-absolute.top-1.end-2.m-1 {
