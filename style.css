@@ -102,9 +102,6 @@ h2.text-uppercase.text-center.mb-3.mb-md-4.mb-lg-5.mt-5 {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .jumbotron.text-white.text-center.p-5 {
-    /* background-color: black; */
-}
 h1.fs-1.text-right.text-uppercase.mb-4.mt-md-4 {
     margin-top: 85px !important;
 }
