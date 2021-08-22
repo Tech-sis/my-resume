@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,347 +8,529 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.css">
     <script src="https://kit.fontawesome.com/9fcc03b837.js" crossorigin="anonymous"></script>
-    
     <title>My Resume</title>
 </head>
-<body class="bg-dark text-white">
-    <header class="p-1">
+
+<body class="text-dark">
+
+    <header class="p-2">
         <div class="container">
-        <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
-            <div class="navbar-collapse collapse" id="navbarCollapse">
-                <ul class="nav navbar-nav justify-content-center">
-                <li class="nav-item active">
-                   <a href="" class="nav-link"> Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#profile-page" class="nav-link"> Profile</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#resume-page" class="nav-link"> Resume</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#skills-page" class="nav-link"> Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact-page" class="nav-link"> Contact</a>
-                </li>
-            </ul>
-            </div>
-            
-        </nav>
+            <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+
+                <a href="https://www.hng.tech" class="navbar-brand mx-3">
+                    <img src="./images/hnglogo.png" width="150" height="30" class=" d-inline-block align-top" alt="hng-logo">
+                </a>
+                
+                <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" 
+                aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="nav navbar-nav justify-content-center ms-auto text-center">
+                       
+                        <li class="nav-item active">
+                            <a href="" class="nav-link"> Home</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a href="#profile-page" class="nav-link"> Profile</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a href="#resume-page" class="nav-link"> Resume</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a href="#skills-page" class="nav-link"> Skills</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a href="#contact-page" class="nav-link"> Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>      
     </header>
 
+    
     <main> 
-       
         <section class="section-0">
-            <div class="overlay-div"></div>
-             <div class="jumbotron text-dark text-capitalize text-center p-5 m-md-5 img-overlay">
-            <h1 id="name" class="p-2 p-md-5 mt-md-1 fs-5">I'm Adeola Abilawon!</h1>
-            <h3 class="p-3">Front-End Developer</h3>
-            <p class="mb-md-5 first p-1 p-md-4 p-lg-5">Book addict, video game lover, sheCan</p>
-            <a class="mt-5 p-2 bg-danger text-reset text-decoration-none text-uppercase rounded" href="#profile-page">Know me better</a>
             
-        </div>
-        </section>
-         <a id="profile-page">
-        <section class="section-1">
-            <div>
-                <img src="" alt="">
-            </div>
-            <div class="m-3 m-md-4 m-lg-5">
-                <h1 class="fs-1 text-right text-uppercase mb-4 mt-md-4 ">Hello, my name is Adeola!</h1>
-                <h6 class=" mb-md-1 fs-5 fw-normal">Adeola Abilawon, 26 years young, born & grew up in Lagos, Nigeria. Highly motivated front-end developer with a penchant for advancement.</h6>
-            </div>
-            <hr  size="9" class="mx-md-4">
-            <div class="m-3 text-secondary fw-normal">
-                <p class="mt-md-5 mx-md-4 mx-lg-5">I currently work at HNGi8, where I spend most of my time crafting and working on awesome projects.</p>
-                <div></div>
-                <p class="mx-md-4 mx-lg-5 mb-md-5">
-                    My job entails developing and implementing visual and interactive element that users can engage with through their web
-                    browser when using a web application.
+            <div class="container text-white text-capitalize text-center p-5 m-md-5 mt-5">
+                <h1 id="name" class="p-2 p-md-5 mt-5 mt-md-1 fs-5">
+                    I'm Adeola Abilawon!
+                </h1>
+                <h3 class="p-3">
+                    Front-End Developer
+                </h3>
+                <p class="mb-md-3 mb-lg-5 p-1 p-md-4 p-lg-3">
+                    Book addict, video game lover, sheCan
                 </p>
-            </div>
-            <div class="div-1">
-                <div class="m-3 mt-5 m-md-4 m-lg-5">
-                    <p class="m-md-4 mt-md-5 text-uppercase">Contact Details:</p>
-                    <p class="m-md-4 m-lg-5 fw-bold text-secondary">Adeola Abilawon</p>
-                    <p class="m-md-4 m-lg-5 fw-bold text-secondary">Lagos Island, Lagos, Nigeria</p>
-                    <p class="m-md-4 m-lg-5 text-secondary fw-bold">+234 809 350 8250</p>
-                    <p class="m-md-4 m-lg-5 mb-md-5 text-secondary fw-bold">abilawonadeola@gmail.com</p>
-                </div>
-                <div>
-                    <button class="col-md-4 col-7 m-3 btn btn-white btn-sm btn-outline-danger text-uppercase"><a class="text-decoration-none text-white fs-5" href="#" download="Adeola's Resume">Download Resume</a> </button>
-                </div>
+                <a class="mt-5 p-2 p-md-3 p-lg-4 bg-danger text-reset text-decoration-none text-uppercase rounded" href="#profile-page">
+                    Know me better
+                </a>
             </div>
         </section>
-    </a>
-    <a id="resume-page">
-        <section class="section-2 mt-md-5">
-            <div class="text-center m-3 m-md-4 m-lg-5 p-2">
-                <h1 class="text-uppercase p-1">My Resume</h1>
-                <p class="fst-italic text-secondary mb-0">To make our way, we must have firm resolve, persistence, tenacity. We must gear ourselves to work hard all the way. We
-                can never let up. — Ralph Bunche</p>
-            </div>
-            <hr class="hr-1" size="9">
-            <div class="m-3 m-md-4 m-lg-5 mt-5">
-                <p class="mt-5 pt-1 fw-normal text-center bg text-uppercase">My Education</p>
-                <p class="fw-normal text-center mb-5 p-1">2015 - 2021
-                </p>
-            </div>
+     
+        <a id="profile-page">
 
-            <div class="accordion m-5" id="accordionPanelsStayOpenExample">
-                <div class="accordion-item bg-dark mx-5 border text-center position-relative mb-sm-5 mb-md-0">
-                   
-                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                        <button class="accordion-button bg-danger text-white d-sm-none d-md-block text-start p-3 text-uppercase" 
+            <section class="section-1">
+
+                <div class="m-3 m-lg-5">
+                    <h1 class="fs-5 text-right text-uppercase mb-3 fw-bold">
+                        Hello, my name is Adeola!
+                    </h1>
+                    <p class=" mb-md-1 fs-4 fw-normal">
+                        Adeola Abilawon, born & grew up in Lagos, Nigeria. Highly motivated front-end developer with a penchant for advancement. Adeola brings her commuication and interpersonal skills gotten through years in the research world to move your team to the next level. She's a team player and a committed member, her attention to details and zeal to get things done effectively and efficiently is all your team needs to advance to the next level.  
+                    </p>
+                </div>
+
+                <hr  size="9" class="mx-md-4">
+                
+                <div>
+                    <img class="d-xs-none m-5 mt-2 mb-2 mx-xl-5 align-center d-inline-block float-md-start img-thumbnail img-fluid mx-auto mx-md-4 d-block" width="350" height=""
+                        src="./images/ade2.jpeg" alt="my-picture">
+                </div>
+
+                <div class="m-3 text-secondary fw-normal">
+                    <p class="mx-md-4 mx-lg-5">
+                        I currently intern at HNGi8, where I spend most of my time crafting and working on awesome projects.
+                    </p>
+                    <p class="mx-md-4 mx-lg-5 mb-md-5">
+                        My job entails developing and implementing visual and interactive element that users can engage with through their web browser when using a web application.
+                    </p>
+                </div>
+
+                <div class="div-1">
+                    <div class="m-3 m-md-3 m-lg-1 d-md-inline-block">
+                        <p class="m-md-4 mt-md-1 m-lg-1  text-uppercase">
+                            Contact Details:
+                        </p>
+                        <p class="m-md-4 m-lg-2 fw-bold text-secondary">
+                            Adeola Abilawon
+                        </p>
+                        <p class="m-md-4 m-lg-2 fw-bold text-secondary">
+                            Lagos Island, Lagos, Nigeria
+                        </p>
+                        <p class="m-md-4 m-lg-2 text-secondary fw-bold">
+                            +234 809 350 8250
+                        </p>
+                        <p class="m-md-4 m-lg-2 mb-md-5 text-secondary fw-bold">
+                            abilawonadeola@gmail.com
+                        </p>
+                    </div>
+                    <div class="d-md-inline float-md-end">
+                        <button class="p-3 m-3 m-md-5 col-lg-7 btn btn-danger btn-sm mt-1 btn-outline-danger text-uppercase">
+                            <a class="text-decoration-none text-white fs-5" href="#" download="Adeola's Resume">
+                                Download Resume
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </a>
+
+        <a id="resume-page">
+            <section class="section-2 mt-md-5">
+                <div class="text-center m-3 m-md-4 m-lg-5 p-2">
+                    <h1 class="text-uppercase p-1">
+                        My Resume
+                    </h1>
+                    <p class="fst-italic text-secondary mb-0 mx-md-5">
+                        To make our way, we must have firm resolve, persistence, tenacity. We must gear ourselves to work hard all the way. We can never let up. — Ralph Bunche
+                    </p>
+                </div>
+            
+                <hr class="hr-1" size="9">
+            
+                <div class="m-3 m-md-4 m-lg-5 mt-5">
+                    <p class="mt-5 pt-1 fw-bold text-center bg text-uppercase">
+                        My Education
+                    </p>
+                    <p class="fw-normal text-center mb-1">
+                        2015 - 2021
+                    </p>
+                </div>
+
+                <div class="accordion mx-md-5" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item bg-dark mx-3 border text-center position-relative mb-sm-5 mb-md-0">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button bg-danger text-white d-sm-none d-md-block text-start p-3 text-uppercase" 
                                 type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#panelsStayOpen-collapseOne" 
                                 aria-expanded="true"
                                 aria-controls="panelsStayOpen-collapseOne">
-                            Bachelor Degree - University of Lagos (2019)
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                    Bachelor Degree - University of Lagos (2019)
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                         aria-labelledby="panelsStayOpen-headingOne">
-                        <div class="accordion-body fw-light text-secondary text-start p-3 pt-4">
-                            <p>
-                                B.Sc. Political Science, Second Class Upper from the prestigious universiy of Lagos.
-                            </p>
+                            <div class="accordion-body fw-light text-white text-start p-3 pt-4">
+                                <p>
+                                    B.Sc. Political Science, Second Class Upper from the prestigious universiy of Lagos.
+                                </p>
+                                <p>
+                                    Relevant Coursework
+                                    <br>
+                                    - Research Methodology<br>
+                                    - Political Data Analysis <br>
+                                    - Entrepreneurship and Corporate Governance <br>
+                                    - Introduction to Management and Business Environment <br>
+                                    - Public Personnel Administration
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item mx-5 bg-dark">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                        <button class="accordion-button bg-danger text-white text-uppercase collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                   </div>
+
+                   <div class="accordion-item mx-3 bg-dark">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed bg-danger text-white text-uppercase" 
+                            type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" 
+                            aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseTwo">
-                            zuri training certification (2021)
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                zuri training certification (2021)
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                         aria-labelledby="panelsStayOpen-headingTwo">
-                        <div class="accordion-body fw-light text-secondary text-start p-3 pt-4">
-                            <p>Graduated and completed training in HTML, CSS, JavaScript and React. </p>
+                            <div class="accordion-body fw-light text-white text-start p-3 pt-4">
+                                <p>
+                                    Graduated and completed training in HTML, CSS, JavaScript and React. 
+                                </p>
+                                <p>
+                                    created mobile first responsive web applications.
+                                </p>
+                                <p>
+                                    Frontend team lead of my project group, singlehandedly coded 17 screens for my team.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item mx-5 bg-dark">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                        <button class="accordion-button bg-danger text-white text-uppercase collapsed" type="button" data-bs-toggle="collapse"
+
+                    <div class="accordion-item mx-3 bg-dark">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed bg-danger text-white text-uppercase" type="button" data-bs-toggle="collapse"
                             data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseThree">
-                            google africa developer scholarship (2021)
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                google africa developer scholarship (2021)
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                         aria-labelledby="panelsStayOpen-headingThree">
-                        <div class="accordion-body fw-light text-secondary text-start p-3 pt-4">
-                           <p>
-                            Won the prestigious google and Andela scholarsip for mobile web development.   
-                            Mobile web specialist certification in view.
-
-                           </p>
-                        </div>
-                    </div>  
+                           <div class="accordion-body fw-light text-white text-start p-3 pt-4">
+                                <p>
+                                    Won the prestigious google and Andela scholarsip for mobile web development.
+                                    Mobile web specialist certification in view.
+                                </p>
+                            </div>
+                        </div>  
+                    </div>
                 </div>
-            </div>
 
-            <div class="m-3 m-md-4 m-lg-5 mt-5">
-                <p class="mt-5 pt-1 fw-normal text-center bg text-uppercase">Work Experience</p>
-                <p class="fw-normal text-center mb-3 p-1">2015 - 2021</p>
+                <div class="m-3 m-md-4 m-lg-5 mt-5">
+                    <p class="mt-5 pt-1 fw-normal text-center bg text-uppercase">
+                        Work Experience
+                    </p>
+                    <p class="fw-normal text-center mb-1 p-1">
+                        2015 - 2021
+                    </p>
 
-            <div class="accordion" id="accordionPanelsStayOpenExample">
-                <div class="accordion-item bg-dark border text-center position-relative mb-sm-5 mx-4 mb-md-0">
+                    <div class="accordion mx-md-4 mx-lg-3" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item bg-dark border text-center position-relative mb-sm-5 mb-md-0">
             
-                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                        <button
-                            class="accordion-button bg-danger text-white d-sm-none d-md-block text-start p-3 text-uppercase"
-                            type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"
-                            aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                            HNG Internship 8
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
-                        aria-labelledby="panelsStayOpen-headingOne">
-                        <div class="accordion-body fw-light text-secondary text-start p-3 pt-4">
-                            <p>Frontend intern of the HNGi8 with a penchant for knowldege, building responsive websites that solve problems <a class="text-decoration-none" href="https://hng.tech/">click for more info.</a></p>
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                <button
+                                    class="accordion-button bg-danger text-white d-sm-none d-md-block text-start p-3 text-uppercase"
+                                    type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#panelsStayOpen-collapseFour"
+                                    aria-expanded="true" 
+                                    aria-controls="panelsStayOpen-collapseFour">
+                                        HNG Internship 8
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingFour">
+                                <div class="accordion-body fw-light text-white text-start p-3 pt-4">
+                                <p>
+                                    Frontend intern of the HNGi8 with a penchant for knowldege, building responsive websites that solve problems 
+                                    <a class="text-decoration-none" href="https://hng.tech/">click for more info.
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                            <button class="accordion-button bg-danger text-uppercase text-white collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFive" 
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFive">
+                                Research Intern
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingFive">
+                            <div class="accordion-body text-capitalize fw-light text-white text-start p-3 pt-4">
+                                <p>
+                                    research intern at the institute of african and diaspora studies, university of lagos.
+                                </p>
+                                <p>
+                                    Travelled to field sites to collect and record data and/or samples as appropriate to the specific objectives of the
+                                    study
+                                </p>
+                                <p>
+                                    Conducted and record telephone interviews with subjects, in accordance with predetermined interview protocol, data
+                                    collection procedures and documentation standards.
+                                </p>
+                                <p>
+                                    Maintained accurate record of interviews, safeguarding the confidentiality of subjects as necessary
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                            <button class="accordion-button bg-danger text-white text-uppercase collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSix">
+                                Volunteer - SheInnovators Foundation
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingSix">
+                            <div class="accordion-body text-capitalize fw-light text-white text-start p-3 pt-4">
+                                <p>
+                                    Initiating and setting goals according to the strategic objectives of the organization
+                                </p>
+                                <p>
+                                    Sourcing for grants and sponsorship for the organization
+                                </p>
+                                <p>
+                                    Drafting grant proposals and applying for grants on behalf of the organization
+                                </p>
+                                <p>
+                                    Performing administrative functions such as proofreading, slide and document editing and preparing documents for
+                                    presentation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                            <button class="accordion-button bg-danger text-white text-uppercase collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseSeven">
+                                research assistant, centre for african studies - university of edinburgh
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingSeven">
+                            <div class="accordion-body text-capitalize fw-light text-white text-start p-3 pt-4">
+                                <p>
+                                    Travelled to field sites to collect and record data and/or samples as appropriate to the specific
+                                    objectives of the
+                                    study
+                                </p>
+                                <p>
+                                    Conducted and record telephone interviews with subjects, in accordance with predetermined interview
+                                    protocol, data
+                                    collection procedures and documentation standards.
+                                </p>
+                                <p>
+                                    Maintained accurate record of interviews, safeguarding the confidentiality of subjects as necessary
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item mx-4 bg-dark">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                        <button class="accordion-button bg-danger text-uppercase text-white collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseTwo">
-                            Research Intern
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
-                        aria-labelledby="panelsStayOpen-headingTwo">
-                        <div class="accordion-body text-capitalize fw-light text-secondary text-start p-3 pt-4">
-                            <p>
-                                research intern at the institute of african and diaspora studies, university of lagos.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item mx-4 bg-dark">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                        <button class="accordion-button bg-danger text-white text-uppercase collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseThree">
-                            research assistant
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
-                        aria-labelledby="panelsStayOpen-headingThree">
-                        <div class="accordion-body text-capitalize fw-light text-secondary text-start p-3 pt-4">
-                            <p>
-                                university of edinburgh - 2020
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </a>
+            </section>
+        </a>
 
 
-<a id="skills-page" >
-    <section class="section-h2" >
-            <div class="m-3 text-center mt-5">
-                <h1 class="p-5 pb-2 text-uppercase">Skills & Expertise</h1>
-                <p class="fw-light text-secondary fst-italic">Are you bored with life? Then throw yourself into some work you believe in with all your heart, live for it, die for it,
-                and you will find happiness that you had thought could never be yours. — Dale Carnegie</p>
-            </div>
-            <hr class="hr-2" size="9">
-            <div class="container">
-                <div class="row row-cols-md-2 row-cols-lg-3">
-                <div class="text-center mt-5 col-md">
-                    <img style="max-width: 25%; height: auto;"  class="img-fluid mx-auto  d-block" src="./images/html-1.svg" alt="html">
-                    <h6 class="mt-3">HTML</h6>
+        <a id="skills-page" >
+            <section class="section-h2" >
+                <div class="m-3 text-center mt-5">
+                    <h1 class="p-5 pb-2 text-uppercase">
+                        Skills & Expertise
+                    </h1>
+                    <p class="fw-light text-secondary fst-italic">
+                        Are you bored with life? Then throw yourself into some work you believe in with all your heart, live for it, die for it, and you will find happiness that you had thought could never be yours. — Dale Carnegie
+                    </p>
                 </div>
-                <div class="text-center mt-5 col-md">
-                    <img style="max-width: 25%; height: auto;" class="img-fluid mx-auto  d-block" src="./images/css-3.svg" alt="html">
-                    <h6 class="mt-3">CSS</h6>
-                </div>
-                <div class="text-center mt-5 col-md">
-                    <img style="max-width: 25%; height: auto;" class="img-fluid mx-auto  d-block" src="./images/logo-javascript.svg" alt="html">
-                    <h6 class="mt-3">JAVASCRIPT</h6>
-                </div>
-                <div class="text-center mt-5 col-md">
-                    <img style="max-width: 25%; height: auto;" class="img-fluid mx-auto  d-block" src="./images/react-1.svg" alt="html">
-                    <h6 class="mt-3">REACT</h6>
-                </div>
-                <div class="text-center mt-5 col-md">
-                    <img style="max-width: 25%; height: auto;" class="img-fluid mx-auto  d-block" src="./images/bootstrap-5-1.svg" alt="html">
-                    <h6 class="mt-3">BOOTSTRAP</h6>
-                </div>
-                
-            </div>
-            </div>
+                <hr class="hr-2" size="9">
             
-        
-
-            <div class=" mt-5 m-3">
-                <h2 class=" mt-md-5 text-uppercase text-center mb-3 ">Accolades</h2>
-                    <p class="fst-italic text-secondary text-center p-3 pt-1">Nothing worthwhile comes easily. Work, continuous work and hard work, is the only way to accomplish results that last. —
-                    Hamilton Holt</p>
-                <hr class="hr-3" size="9">
-
-                <div style="border-left: 2px solid #dc3545; position: relative; height: auto; margin-top: 50px;" class="offset-1 textt-right"> 
-                
-                    
-                    <div class="m-2 p-1 p-lg-5">
-                        <img src="" style="width: 20%;" class="position-absolute top-1 end-2 m-1" alt=""> 
-                        <p class="text-uppercase m-4 mt-1 mb-1 fs-1">Zuri Training certification</p>
-                        <p class="m-4 mt-1 fs-2">2021</p>
-                        <p class="fw-light m-4 fs-5 text-secondary">For completing the project phase.</p>
-                        <hr style="width:100%; color:white;" size="3" class="m-4">
+                <div class="container">
+                    <div class="row row-cols-md-2 row-cols-lg-3">
+                        <div class="text-center mt-5 col-md">
+                            <img style="max-width: 25%; height: auto;"  class="img-fluid mx-auto  d-block" src="./images/html-1.svg" alt="html">
+                            <h6 class="mt-3">HTML</h6>
+                        </div>
+                        <div class="text-center mt-5 col-md">
+                            <img style="max-width: 25%; height: auto;" class="img-fluid mx-auto  d-block" src="./images/css-3.svg" alt="html">
+                            <h6 class="mt-3">CSS</h6>
+                        </div>
+                        <div class="text-center mt-5 col-md">
+                            <img style="max-width: 25%; height: auto;" class="img-fluid mx-auto  d-block" src="./images/logo-javascript.svg" alt="html">
+                            <h6 class="mt-3">JAVASCRIPT</h6>
+                        </div>
+                        <div class="text-center mt-5 col-md">
+                            <img style="max-width: 25%; height: auto;" class="img-fluid mx-auto  d-block" src="./images/react-1.svg" alt="html">
+                            <h6 class="mt-3">REACT</h6>
+                        </div>
+                       <div class="text-center mt-5 col-md">
+                            <img style="max-width: 25%; height: auto;" class="img-fluid mx-auto  d-block" src="./images/bootstrap-5-1.svg" alt="html">
+                            <h6 class="mt-3">BOOTSTRAP</h6>
+                        </div>
                     </div>
-                    <div class="m-2 p-1 p-lg-5">
-                        <img src="" style="width: 20%;" class="img-2" alt="">
-                        <p class="text-uppercase m-4 mt-1 mb-1 fs-1">best graduating student</p>
-                        <p class="m-4 mt-1 fs-2">2019</p>
-                        <p class="fw-light m-4 fs-5 text-secondary">Department of political science</p>
-                        <hr style="width:100%; color:white;" size="3" class="m-4">
-                    </div>
-                    <div class="m-2 p-1 p-lg-5">
-                        <img src="" style="width: 20%;" class="img-3" alt="">
-                        <p class="text-uppercase m-4 mt-1 mb-1 fs-1">Sololearn CSS certification</p>
-                        <p class="m-4 mt-1 fs-2">2020</p>
-                        <p class="fw-light m-4 fs-5 text-secondary">Proficiency with CSS3</p>
-                        <hr style="width:100%; color:white;" size="3" class="m-4">
-                    </div>
-                    <div class="m-2 p-1 p-lg-5">
-                        <img src="" style="width: 20%;" class="img-4" alt="">
-                        <p class="text-uppercase m-4 mt-1 mb-1 fs-1">Sololearn HTML certification</p>
-                        <p class="m-4 mt-1 fs-2">2019</p>
-                        <p class="fw-light m-4 fs-5 text-secondary">Proficiency with HTML 5</p>
-                        <hr style="width:100%; color:white;" size="3" class="m-4">
-                    </div>
-            </div>
-
-            <div class=" mt-5 m-3 m-md-4 m-lg-5">
-                <h2 class="text-uppercase text-center mb-3 mb-md-4 mb-lg-5 mt-5">Milestones Achieved</h2>
-                <p class="fst-italic text-secondary text-center p-3 pt-1">One important key to success is self-confidence. An important key to self-confidence is preparation. — Arthur Ashe</p>
-                <hr class="hr-4" size="9">
-
-                <div class="container d-sm-flex justify-content-sm-center  text-uppercase fw-bold row row-cols-md"> 
-                   
-                    <div class="col-md">
-                        <a href="hng.tech">
-                            <img src="./images/hng1.jpeg" style="max-width: 70%; height: auto; background-color: white;"
-                            class="img-fluid mx-auto rounded-circle d-block mt-5" alt="">
-                        </a>
-                        <p class="text-center fs-3 mt-4">8 weeks</p>
-                        <p class="text-center fs-5 fw-light">Moved to stage 2</p>
-                    </div>
-                    <div class="col-md">
-                        <a href="https://ingressive.org/">
-                            <img src="./images/i4g1.jpeg" style="max-width: 70%; height: auto;"
-                            class="img-fluid mx-auto rounded-circle d-block  mt-5" alt="">
-                        </a>
-                        <p class="text-center fs-3 mt-3">beneficiary</p>
-                        <p class="fw-light text-center">won the i4g scholarship</p>
-                    </div>
-
-                    <div class="col-md">
-                        <a href="https://training.zuri.team/">
-                            <img src="./images/Zuri logo.png" style="max-width: 70%; height: auto;"  class="img-fluid mx-auto  d-block rounded-circle mt-5"  alt="">
-                        </a>
-                        
-                        <p class="text-center fs-3 mt-4">12 weeks</p>
-                        <p class="text-center fw-light">Completed Zuri Training</p>
-                    </div>
-                   
                 </div>
-            </div>
-        </section>
-    </a>
+            
+                <div class="m-3">
+                    <h2 class=" mt-md-5 text-uppercase text-center mb-3 ">Accolades</h2>
+                    <p class="fst-italic text-secondary text-center p-3 pt-1 m-lg-5">
+                        Nothing worthwhile comes easily. Work, continuous work and hard work, is the only way to accomplish results that last. — Hamilton Holt
+                    </p>
+                    <hr class="hr-3" size="9">
+
+                    <div 
+                    style="border-left: 2px solid #dc3545; position: relative; height: auto; margin-top: 50px;" 
+                    class="offset-1 text-right"> 
+                        <div class="m-2 p-1 p-lg-3">    
+                            <p class="text-uppercase m-4 mt-1 mb-1 fs-4">
+                                Zuri Training certification
+                            </p>
+                            <p class="mx-4 mb-1 mt-1 fs-4">
+                                2021
+                            </p>
+                            <p class="fw-light mx-4 mb-1 fs-5 text-secondary">
+                                For completing the project phase.
+                            </p>
+                            <hr style="width:100%; color:white;" size="3" class="mx-4 my-2 mb-1">
+                        </div>
+                        <div class="m-2 p-1 p-lg-3">
+                            <p class="text-uppercase m-4 mt-1 mb-1 fs-4">
+                                best graduating student
+                            </p>
+                            <p class="mx-4 mb-1 mt-1 fs-4">
+                                2019
+                            </p>
+                            <p class="fw-light mx-4 mb-1 fs-5 text-secondary">
+                                Graduated as the best graduating student of the Department of Political Science, University of Lagos.
+                            </p>
+                            <hr style="width:100%; color:white;" size="3" class="mx-4 my-2">
+                        </div>
+                        <div class="m-2 p-1 p-lg-3">
+                            <p class="text-uppercase m-4 mt-1 mb-1 fs-4">
+                                sololearn html & css certification
+                            </p>
+                            <p class="mx-4 mb-1 mt-1 fs-4">
+                                2019-2020
+                            </p>
+                            <p class="fw-light mx-4 mb-1 fs-5 text-secondary">
+                                gained proficiency with HTML5 and CSS3.
+                            </p>
+                            <hr style="width:100%; color:white;" size="3" class="mx-4 my-2">
+                        </div>
+                        <div class="m-2 p-1 p-lg-3">
+                            <p class="text-uppercase m-4 mt-1 mb-1 fs-4">
+                                university of lagos scholars award
+                            </p>
+                            <p class="mx-4 mb-1 mt-1 fs-4">
+                                2017
+                            </p>
+                            <p class="fw-light mx-4 mb-1 fs-5 text-secondary">
+                                awarded the unilag award for academic excellence
+                            </p>
+                            <hr style="width:100%; color:white;" size="3" class="mx-4 my-2">
+                        </div>
+                    </div>
+
+                    <div class=" mt-5 m-md-4 m-lg-5">
+                        <h2 class="text-uppercase text-center mb-3 mb-md-4 mb-lg-5 mt-5 mt-lg-3">
+                            Milestones Achieved
+                        </h2>
+                        <p class="fst-italic text-secondary text-center p-3 pt-1">
+                            One important key to success is self-confidence. An important key to self-confidence is preparation. — Arthur Ashe
+                        </p>
+                        <hr class="hr-4" size="9">
+
+                        <div class="container d-sm-flex justify-content-sm-center  text-uppercase fw-bold row row-cols-md"> 
+                   
+                            <div class="col-md">
+                                <a href="hng.tech">
+                                    <img src="./images/hng1.jpeg" style="max-width: 70%; height: auto; background-color: white;"
+                                    class="img-fluid mx-auto rounded-circle d-block mt-5" alt="hng-logo">
+                                </a>
+                                <p class="text-center fs-3 mt-4">8 weeks</p>
+                                <p class="text-center fs-5 fw-light">Moved to stage 2</p>
+                            </div>
+                            <div class="col-md">
+                                <a href="https://ingressive.org/">
+                                    <img src="./images/i4g1.jpeg" style="max-width: 70%; height: auto;"
+                                    class="img-fluid mx-auto rounded-circle d-block  mt-5" alt="ingressive4good logo">
+                                </a>
+                                <p class="text-center fs-3 mt-3">beneficiary</p>
+                                <p class="fw-light text-center">won the i4g scholarship</p>
+                            </div>
+
+                            <div class="col-md">
+                                <a href="https://training.zuri.team/">
+                                    <img src="./images/Zuri logo.png" style="max-width: 70%; height: auto;"  class="img-fluid mx-auto  d-block rounded-circle mt-5"  alt="xuri-team-logo">
+                                </a>
+                                <p class="text-center fs-3 mt-4">12 weeks</p>
+                                <p class="text-center fw-light">Completed Zuri Training</p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </section>
+        </a>
     </main>
 
     <a id="contact-page">
-    <footer class="bg-danger">
-        <div class="text-center p-3 fw-light">
-            <i class="far fa-copyright"></i>
-            <p class="d-inline">2021 Adeola Abilawon. All right reserved</p>
-        </div>
-        <div class="d-flex justify-content-center">
-            <a class="text-reset text-decoration-none p-1 p-md-3 p-lg-5" href="https://github.com/Tech-sis"><i class=" fab fa-github"></i></a>
-            <a class="text-reset text-decoration-none p-1 p-md-3 p-lg-5" href="https://www.figma.com/@ade_abilawon"><i class=" fab fa-figma"></i></a>
-            <a class="text-reset text-decoration-none p-1 p-md-3 p-lg-5" href="https://www.linkedin.com/in/adeola-abilawon-bb99279a"><i class=" fab fa-linkedin"></i></a>
-            <a class="text-reset text-decoration-none p-1 p-md-3 p-lg-5" href="http://twitter.com/profade_ola"><i class=" fab fa-twitter"></i></a>
-            <a class="text-reset text-decoration-none p-1 p-md-3 p-lg-5" href="wa.me/2348093508250">
-                <i class="fab fa-whatsapp"></i>
-            </a>
-        </div>
-    </footer>
-</a>
-    <script src="./bootstrap.js"></script>
-    <script src="./app.js"></script>
+        <footer class="bg-danger">
+            <div class="text-center p-2 fw-light">
+                <i class="far fa-copyright"></i>
+                <p class="d-inline">
+                    2021 Adeola Abilawon. All right reserved
+                </p>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a class="text-reset text-decoration-none p-1 p-md-3 p-lg-5" href="https://github.com/Tech-sis">
+                    <i class=" fab fa-github"></i>
+                </a>
+                <a class="text-reset text-decoration-none p-1 p-md-3 p-lg-5" href="https://www.figma.com/@ade_abilawon">
+                    <i class=" fab fa-figma"></i>
+                </a>
+                <a class="text-reset text-decoration-none p-1 p-md-3 p-lg-5" href="https://www.linkedin.com/in/adeola-abilawon-bb99279a">
+                    <i class=" fab fa-linkedin"></i>
+                </a>
+                <a class="text-reset text-decoration-none p-1 p-md-3 p-lg-5" href="http://twitter.com/profade_ola">
+                    <i class=" fab fa-twitter"></i>
+                </a>
+                <a class="text-reset text-decoration-none p-1 p-md-3 p-lg-5" href="wa.me/2348093508250">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </footer>
+    </a>
+    
+    <script 
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
+    </script>
+    <script 
+        src="./bootstrap.js">
+    </script>
+    <script 
+        src="./app.js">
+    </script>
 </body>
 
 </html>
